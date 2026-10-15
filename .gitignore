@@ -1,0 +1,27 @@
+# Sollwerte / Secrets - enthaelt PII (E-Mail, Kostenstelle, Projektnummern)
+.env
+.env.*
+!.env.example
+
+# Python-Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Testartefakte / Berichte
+bericht.json
+*.log

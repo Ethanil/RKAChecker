@@ -1,0 +1,4 @@
+# Laufzeit-Abhängigkeiten für den RKA-Checker.
+# Werden beim ersten Start von main.py automatisch installiert; wer das
+# manuell machen will:  py -m pip install -r requirements.txt
+pikepdf>=9,<11
